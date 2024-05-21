@@ -42,11 +42,11 @@ Once the installation is complete, you can start the development server:
 npm start
 The application will be available at http://localhost:3000 by default.
 
-#Features
+# Features
 Search for weather information by city name
 Display current weather conditions
 Show temperature, humidity, and wind speed
 Responsive design
 
-#Contributing
+# Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
