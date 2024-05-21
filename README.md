@@ -44,9 +44,12 @@ The application will be available at http://localhost:3000 by default.
 # Features
 The React Weather App comes with several features to help users access weather information quickly and easily:
 
-### Search Functionality: Users can search for weather information by city name, allowing them to get up-to-date weather forecasts for any location.
-### Current Weather Conditions: The app displays current weather conditions, including temperature, humidity, and wind speed, in an easy-to-read format.
-### Responsive Design: The application is designed to be responsive and work well on devices of all sizes, including desktops, tablets, and smartphones.
+### Search Functionality: 
+Users can search for weather information by city name, allowing them to get up-to-date weather forecasts for any location.
+### Current Weather Conditions: 
+The app displays current weather conditions, including temperature, humidity, and wind speed, in an easy-to-read format.
+### Responsive Design: 
+The application is designed to be responsive and work well on devices of all sizes, including desktops, tablets, and smartphones.
 
 # Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
