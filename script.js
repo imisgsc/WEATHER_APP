@@ -1,8 +1,12 @@
 const apiKey = "e1b2854a0c8de0609466ca54bb0a7e90";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=chennai";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-async function checkWeather(){
-    const response = await fetch(apiUrl + `&appid=${apiKey}`);
+const searchBox = document.querySelector(".search input");
+const searchBtn = document.querySelector(".search button");
+
+
+async function checkWeather(city){
+    const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     var data =  await response.json();
 
     console.log(data);
@@ -17,4 +21,7 @@ async function checkWeather(){
 
 }
 
-checkWeather();
+searchBtn.addEventListener("click",()=>{
+    checkWeather(searchBox.value);
+})
+
